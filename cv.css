@@ -1,0 +1,76 @@
+.vanster{
+    float: left;
+}
+
+h1{
+    background-color: #00CED1;
+    color: #F8F8FF;
+    margin: 20px, 0px, 0px, 40px;
+    padding: 5px;
+    border-color: 6px,#00BDC0;
+    width: 390px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    float: left;   
+}
+aside{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #dab366;
+    padding: 5px;
+    width: 390px;
+    border-radius: 10px;
+}
+
+header{
+    font-style: bold;
+}
+
+.hoger{
+    float: left;
+    background-color: #B5ead7;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 5px;
+}
+
+.OmMig{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Erfarenheter{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Utbildning{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Hobby{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.FineLine .FineLine2 ul li::before,
+.FineLine .FineLine2 ul li::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    border: 2px solid yellow;
+}
+.FineLine .FineLine2 ul li::after,
+.FineLine .FineLine2 ul li::after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: yellow;
+}
